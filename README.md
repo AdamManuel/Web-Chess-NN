@@ -5,6 +5,9 @@ This is for fun and nothing else.
 Will be using TensorFlow.js for the NN
 and Angular for the Frontend Framework. (Why not)
 
+#Documentation
+https://adammanuel.github.io/Web-Chess-NN-Documentation/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
