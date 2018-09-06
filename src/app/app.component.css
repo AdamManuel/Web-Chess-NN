@@ -10,8 +10,16 @@
   flex-wrap: nowrap;
 }
 
+.cell-row {
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
 .cell {
   width: 12.5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .black {
