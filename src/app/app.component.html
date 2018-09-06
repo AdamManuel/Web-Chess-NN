@@ -2,10 +2,12 @@
   <div *ngFor="let row of this.board; let i = index" class="row" [ngStyle]="{'height': this.getHeight()}">
     <div *ngFor="let cell of this.board[i]; let j = index" [ngClass]='((j+i) % 2 == 1 ) ? ("cell black") : ("cell")' (click)="onClick((i), (j))">
       <div class="cell-row">
-        <span>{{(i+1)}} {{(j+1)}}</span>
+        <span>{{'x:' + (i)}} {{'y:' + (j)}}</span>
       </div>
       <div class="cell-row">
         <span>{{this.board[i][j].getName()}}</span>
+        <br>
+        <span>{{(this.board[i][j].getName() != '') ? this.board[i][j].getTeam() : ''}}</span>
       </div>
     </div>
-</div>
+  </div>
