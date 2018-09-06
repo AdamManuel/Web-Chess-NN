@@ -1,6 +1,9 @@
 # Chess
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
+This is for fun and nothing else.
+
+Will be using TensorFlow.js for the NN
+and Angular for the Frontend Framework. (Why not)
 
 ## Development server
 
