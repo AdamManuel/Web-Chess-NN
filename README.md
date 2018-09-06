@@ -5,7 +5,7 @@ This is for fun and nothing else.
 Will be using TensorFlow.js for the NN
 and Angular for the Frontend Framework. (Why not)
 
-#Documentation
+# Documentation
 https://adammanuel.github.io/Web-Chess-NN-Documentation/
 
 ## Development server
